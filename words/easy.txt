@@ -1,1 +1,5 @@
-The quick brown fox jumps over the lazy dog. She sells seashells by the seashore. It’s a beautiful day outside, perfect for a walk. He likes to read books in his free time. The cat sleeps on the mat every afternoon.
+The quick brown fox jumps over the lazy dog. 
+She sells seashells by the seashore. 
+It’s a beautiful day outside, perfect for a walk. 
+He likes to read books in his free time. 
+The cat sleeps on the mat every afternoon.

@@ -25,22 +25,24 @@ body {
 
 h1 {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 label {
     font-size: 1rem;
+
 }
 
 select {
     padding: 5px;
     font-size: 1rem;
-    margin-bottom: 20px;
+    
 }
 
 /* Words container style */
 #words-container {
     padding: 10px;
+    margin-top: 80px;
     font-size: 1.2rem;
     line-height: 1.5;
     word-wrap: break-word;
@@ -50,7 +52,7 @@ select {
     border-radius: 5px;
     margin-bottom: 20px;
     cursor: text;
-    color: gray;
+    color: rgb(39, 72, 200);
     position: absolute;
     top: 140px;
     left: 20px;
@@ -63,6 +65,7 @@ select {
 /* User words container style - Positioned on top of words container */
 #user-words-container {
     padding: 10px;
+    margin-top: 80px;
     padding-bottom: 10px;
     font-size: 1.2rem;
     line-height: 1.5;
@@ -85,6 +88,19 @@ select {
 
 #status {
     margin-top: 10px;
+}
+
+#accuracy { 
+    margin-left: 200px;
+    position: absolute;
+    margin-top: 200px;
+    z-index: 3;
+}
+#speed {    
+    margin-top: 200px;  
+    margin-left: -300px;    
+    position: absolute;
+    z-index: 4; 
 }
 
 #words-container span {

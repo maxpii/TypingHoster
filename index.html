@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typing Tournament</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to the typing tournament</h1>
-    <label for="diff">Choose a difficulty:</label>
-    <select id="diff" name="diff">
-        <option value="easy">Easy</option>
-        <option value="medium">Medium</option>
-        <option value="hard">Hard</option>
-        <option value="hardest">Hardest</option>
-    </select>
-<script src="script.js"></script>
+    <div class="container">
+        <h1>Welcome to the Typing Tournament</h1>
+        
+        <label for="diff">Choose a difficulty:</label>
+        <select id="diff" name="diff">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+            <option value="hardest">Hardest</option>
+        </select>
 
+        <div id="wordsContainer">
+            <div id="words-container">The quick brown fox jumps over the lazy dog. She sells seashells by the seashore. It’s a beautiful day outside, perfect for a walk. He likes to read books in his free time. The cat sleeps on the mat every afternoon.</div>
+            <div id="user-words-container" contenteditable="true"></div>
+        </div>
+        
+        <div id="status">
+            <p>Words typed: <span id="words-typed">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
